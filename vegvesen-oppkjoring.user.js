@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Overvåker ledige oppkjøringstimer på vegvesen.no og sender varsel til mobilen via ntfy.sh
-// @author       Ditt Navn / Shad
+// @author       Shadkader
 // @match        https://www.vegvesen.no/dinside/dittforerkort/timebestilling/timer*
 // @grant        GM_notification
 // @run-at       document-start
@@ -14,11 +14,11 @@
 
     // ==========================================
     // --- KONFIGURASJON (Endre disse etter behov) ---
-    const MIN_DATO = "2026-06-05";       // Sjekker kun datoer ETTER dette
-    const MAKS_DATO = "2026-08-01";      // Sjekker kun datoer FØR dette
+    const MIN_DATO = "2026-06-05";       // Sjekker kun datoer ETTER dette (Format: ÅÅÅÅ-MM-DD)
+    const MAKS_DATO = "2026-08-01";      // Sjekker kun datoer FØR dette (Format: ÅÅÅÅ-MM-DD)
     const MIN_SEKUNDER = 15;             // Minimum ventetid mellom sjekk
     const MAKS_SEKUNDER = 35;            // Maksimum ventetid mellom sjekk
-    const NTFY_TOPIC = "oppkjoring-kristiansand-shad-2026"; // Ditt hemmelige ord i ntfy-appen
+    const NTFY_TOPIC = "velg-ditt-unike-hemmelige-ord-her"; // VIGTIG: Velg et eget hemmelig ord for ntfy-appen din
     // ==========================================
 
     let lagredeHeaders = null;
