@@ -1,4 +1,4 @@
-# oppkjøringsvarsel_oppkjøringsvakt_gratis_vegvesen
+# oppkjøringsvarsel-oppkjøringsvakt-gratis-vegvesen
 Et helt gratis alternativ til Oppkjøringsvarsel og Oppkjøringsvakt. Sjekker automatisk etter ledige oppkjøringstimer (klasse B) hos Statens vegvesen og sender push-varsel til mobilen via ntfy.sh. Userscript for Tampermonkey.
 
 # Oppkjøringsvarsel & Oppkjøringsvakt – Helt Gratis Monitor for Vegvesen (Tampermonkey)
@@ -30,7 +30,7 @@ For å kjøre scriptet trenger du en utvidelse som kan kjøre "userscripts". Vi 
 - **[Last ned Tampermonkey for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlephedocbihglce)**
 
 ### Trinn 2: Installer dette overvåknings-scriptet
-1. Klikk på denne lenken for å installere: **[Installer Gratis Oppkjøringsvarsel (Ett-klikks installasjon)](https://raw.githubusercontent.com/Shadkader/oppkj-ringsvarsel_oppkj-ringsvakt_gratis_vegvesen/main/vegvesen-oppkjoring.user.js)**
+1. Klikk på denne lenken for å installere: **[Installer Gratis Oppkjøringsvarsel (Ett-klikks installasjon)](https://raw.githubusercontent.com/Shadkader/oppkjoringsvarsel-oppkjoringsvakt-gratis-vegvesen/main/vegvesen-oppkjoring.user.js)**
 2. Tampermonkey vil automatisk åpne en ny fane. Klikk på den grønne **Install** (eller *Installer*) knappen.
 
 ### Trinn 3: Klargjør gratis push-varsel på mobilen din (iOS / Android)
